@@ -1,0 +1,23 @@
+.accordion {
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-title {
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: block;
+  }
+  
+  .accordion img {
+    max-width: 100px;
+    margin-top: 10px;
+  }
+  

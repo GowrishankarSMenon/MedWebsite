@@ -1,0 +1,103 @@
+.calendar-container {
+    padding: 20px;
+  }
+  
+  .sidebar {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: right 0.3s ease;
+  }
+  
+  .sidebar.open {
+    right: 0;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sidebar button:last-child {
+    background-color: #dc3545;
+  }
+  
+  /* Med event styling */
+  .rbc-event {
+    margin-bottom: 5px;
+  }
+  
+  .rbc-event-content {
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  .rbc-time-slot {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .rbc-event-label {
+    display: none;
+  }
+  
+  .add-more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #007bff;
+    color: white;
+    padding: 2px 6px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  /* Ensure events are stacked vertically in the same timeslot */
+  .rbc-timeslot-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rbc-event-stacked {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+  }
+  
+  .rbc-time-view .rbc-time-content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .rbc-time-view .rbc-events-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
